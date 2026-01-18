@@ -1,12 +1,11 @@
 # OKCupid Profile Clustering  
 ### Identifying User Archetypes with Agglomerative Hierarchical Clustering
-
-**Authors:** Clio Leung & Paige  
+ 
 **Course Project:** Unsupervised Learning / Clustering Analysis
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project applies **agglomerative hierarchical clustering** to online dating profiles from OKCupid to identify meaningful user segments based on **lifestyle behavior** and **socioeconomic status**.
 
@@ -23,7 +22,7 @@ Identify distinct, interpretable user archetypes that capture behavioral and inc
 
 ---
 
-## 🧠 Methodology Summary
+## Methodology Summary
 
 ### Chosen Features
 We selected two variables for clustering:
@@ -47,7 +46,7 @@ We selected two variables for clustering:
 
 ---
 
-## 🔍 Clustering Approach
+## Clustering Approach
 
 ### Algorithm
 - **Agglomerative Hierarchical Clustering**
@@ -69,7 +68,7 @@ We selected two variables for clustering:
 
 ---
 
-## 🌲 Determining the Number of Clusters
+## Determining the Number of Clusters
 
 Using the dendrogram:
 - A large jump in merge distance occurs between **4 → 3 clusters**
@@ -78,7 +77,7 @@ Using the dendrogram:
 
 ---
 
-## 🧩 Final Clusters
+## Final Clusters
 
 Each user profile is assigned to one of the following clusters:
 
@@ -91,7 +90,7 @@ Each user profile is assigned to one of the following clusters:
 
 ---
 
-## 📊 Analysis & Visualizations
+## Analysis & Visualizations
 
 The project includes the following visual outputs:
 
@@ -112,7 +111,7 @@ within each cluster.
 
 ---
 
-## 🧪 Files Included
+## Files Included
 
 - `profiles-1.xlsx` – Raw OKCupid dataset  
 - `clustering.ipynb` – Full data cleaning, clustering, and visualization workflow  
@@ -120,7 +119,7 @@ within each cluster.
 
 ---
 
-## 🛠️ Libraries Used
+## Libraries Used
 
 - `pandas`
 - `numpy`
@@ -130,12 +129,15 @@ within each cluster.
 
 ---
 
-## 🚀 Key Takeaways
+## Business Implications
+- **Personalized Matching:**  
+  OkCupid can improve match quality by tailoring recommendations based on lifestyle–income compatibility rather than relying solely on surface-level attributes.
 
-- Behavioral lifestyle metrics combined with income can reveal clear user archetypes
-- Agglomerative clustering is effective for small, mixed-type datasets
-- Complete linkage improves separation and interpretability
-- Hierarchical methods provide strong visual intuition via dendrograms
+- **Targeted Marketing & Monetization:**  
+  Different clusters represent **distinct willingness-to-pay and engagement patterns**.  
+  - High-income, low-risk users may respond better to premium subscriptions.  
+  - Socially active or higher-risk users may engage more with event-based or experiential features.
+
 
 ---
 
