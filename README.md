@@ -139,13 +139,3 @@ within each cluster.
   - Socially active or higher-risk users may engage more with event-based or experiential features.
 
 
----
-
-## 📎 Notes
-
-This project was completed for academic purposes and demonstrates:
-- Feature engineering
-- Unsupervised learning
-- Clustering evaluation
-- Visual interpretation of results
-
