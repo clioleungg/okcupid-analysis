@@ -129,7 +129,7 @@ within each cluster.
 
 ---
 
-## Business Implications
+## Conclusions
 - **Personalized Matching:**  
   OkCupid can improve match quality by tailoring recommendations based on lifestyle–income compatibility rather than relying solely on surface-level attributes.
 
